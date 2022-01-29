@@ -18,10 +18,8 @@ yoshi = prompt(`Para isso, Yoshi pode te ajudar a encarar os desafios pela frent
         acertos++;
     }else{
         console.log(`Para chegar ao castelo você teve que passar sozinho pela floresta de cogumelos e lutar com inimigos. Restaram 80% de energia.\n`);
-        energia -=25;
-        
-    }
-    
+        energia -=25;    
+    }  
 console.log(`Agora que chegamos ao castelo, precisamos achar um jeito de entrar.`);
 console.log(`Podemos usar a força bruta e encarar os monstros da entrada ou agir com inteligencia e entrar pelos dutos subterrâneos.\n`);
 
@@ -33,8 +31,6 @@ entrada = prompt(`Pretende entrar pelos dutos subterrâneos de forma que ningué
         energia -=25;
         console.log(`Você não fez a escolha mais inteligente. Muitas lutas foram necessárias e lhe restam agora ${energia}% de energia.\n`);
     }
-
-
 console.log(`Uma vez dentro do castelo, é hora de chegar ao topo onde a princesa esta aprisionada.`);
 console.log(`Como Bowser não é bobo nem nada, ele lotou as escadas com sabão para inpedir que Mário suba.`);
 console.log(`No entando, o mundo da fantasia é menor do que imaginamos... e para sua sorte, o castelo é o mesmo onde Rapunzel está aprisionada!\n`);
@@ -48,12 +44,10 @@ rapunzel=prompt(`Deseja mandar Rapunzel jogar as tranças e chegar em alto estil
         console.log(`Valeu as várias tentativas para subir as escadas ensaboadas...`);
         console.log(`mas infelizmente em uma delas Mário bateu o cóccix em uma quina e acabou ficando com ${energia}% de energia.\n`);
     }
-
 console.log(`Agora no topo, já é possivel ouvir os gritos de socorro da Princesa.`);
 console.log(`Mas antes de qualquer coisa, é precisso arrumar uma arma para enfrentar o Bowser.`);
 console.log(`E é aí, que você se depara com uma espada de um guerreiro que foi anteriormente derrotado e um estilingue pelo caminho.`);
 console.log(`No entanto, você só pode levar uma arma com voce...\n`);
-
 
 arma = prompt(`A espada é a melhor escolha de arma para a luta que esta por vir? `).toUpperCase();
     if(arma=="SIM"||arma=="S"||arma==1){
@@ -62,7 +56,6 @@ arma = prompt(`A espada é a melhor escolha de arma para a luta que esta por vir
     }else{
         console.log(`Você tem apenas ${energia}% de energia... com uma arma dessas vai precisar de sorte para derrotar o Bowser.\n`);
     }
-
 console.log(`A medida em que avança, os gritos da princesa ficam cada vez mais próximos.`);
 console.log(`E então, você se depara com Bowser que esta te esperando para a aguardada luta.`);
 console.log(`Atrás dele, esta a princesa aprisionada em uma cela. `);
