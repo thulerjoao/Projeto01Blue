@@ -1,12 +1,12 @@
 var prompt = require('prompt-sync')();
 
-let yoshi
-let entrada
-let rapunzel
-let arma
-let luta
-let energia = 100
-let acertos = 0
+let yoshi;
+let entrada;
+let rapunzel;
+let arma;
+let luta;
+let energia = 100;
+let acertos = 0;
 
 console.log(`Bem vindo ao Mário World 2.0!!!\n`);
 console.log(`Mário saiu para comprar pão e Bowser aproveitou o momento para sequestrar a Princesa mais uma vez...
