@@ -17,8 +17,8 @@ yoshi = prompt(`Para isso, Yoshi pode te ajudar a encarar os desafios pela frent
         console.log(`Ótima escolha! Vocês tiveram um longo caminho pela floresta de cogumelos e Yoshi foi o diferencial para chegar até o castelo com energia em 100%!\n`);
         acertos++;
     }else{
-        console.log(`Para chegar ao castelo você teve que passar sozinho pela floresta de cogumelos e lutar com inimigos. Restaram 80% de energia.\n`);
-        energia -=25;    
+        energia -=25; 
+        console.log(`Para chegar ao castelo você teve que passar sozinho pela floresta de cogumelos e lutar com inimigos. Restaram ${energia}% de energia.\n`);    
     }  
 console.log(`Agora que chegamos ao castelo, precisamos achar um jeito de entrar.`);
 console.log(`Podemos usar a força bruta e encarar os monstros da entrada ou agir com inteligencia e entrar pelos dutos subterrâneos.\n`);
@@ -33,7 +33,7 @@ entrada = prompt(`Pretende entrar pelos dutos subterrâneos de forma que ningué
     }
 console.log(`Uma vez dentro do castelo, é hora de chegar ao topo onde a princesa esta aprisionada.`);
 console.log(`Como Bowser não é bobo nem nada, ele lotou as escadas com sabão para inpedir que Mário suba.`);
-console.log(`No entando, o mundo da fantasia é menor do que imaginamos... e para sua sorte, o castelo é o mesmo onde Rapunzel está aprisionada!\n`);
+console.log(`No entando, o mundo da fantasia é menor do que imaginamos... e por sorte, o castelo é o mesmo onde Rapunzel está aprisionada!\n`);
 
 rapunzel=prompt(`Deseja mandar Rapunzel jogar as tranças e chegar em alto estilo para salvar a Princesa? `).toUpperCase();
     if(rapunzel=="SIM"||rapunzel=="S"||rapunzel==1){
@@ -57,7 +57,7 @@ arma = prompt(`A espada é a melhor escolha de arma para a luta que esta por vir
         console.log(`Você tem apenas ${energia}% de energia... com uma arma dessas vai precisar de sorte para derrotar o Bowser.\n`);
     }
 console.log(`A medida em que avança, os gritos da princesa ficam cada vez mais próximos.`);
-console.log(`E então, você se depara com Bowser que esta te esperando para a aguardada luta.`);
+console.log(`E então, você encontra o Bowser que esta te esperando para a aguardada luta.`);
 console.log(`Atrás dele, esta a princesa aprisionada em uma cela. `);
 console.log(`Agora, você precisa decidir entre enfrentar o Bowser com todas as suas forças ou pedir educadamente para que ele solte a princesa...\n`);
 
